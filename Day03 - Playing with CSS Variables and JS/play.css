@@ -1,6 +1,46 @@
 :root{
     --base: #ffc600;
     --spacing: 10px;
-    --blur: 10px;
+    --blur: 1px;
 }
+img{
+    width : 30%;
+    height: 30%;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    /*border-radius: var(--spacing);*/
+}
+.hl{
+    color: var(--base);
+    font-size: 3rem;
+}
+
+body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+input {
+    width: 150px;
+    cursor: pointer;
+
+}
+
+input[type="color"] {
+    border: none;
+    text-decoration: none;
+    width: 40px;
+    height: 32px;
+    /*cursor: pointer;*/
+}
+
 
